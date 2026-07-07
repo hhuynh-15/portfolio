@@ -1,0 +1,31 @@
+body {
+  background: #f5eee6;
+}
+h1 {
+  color: black;
+  font-family: "Cormorant Upright", serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 55px;
+  line-height: 1;
+  opacity: 0.85;
+}
+h3 {
+  font-family: "IBM Plex Mono", monospace;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 18px;
+  line-height: 50px;
+}
+.navbar-brand {
+  font-family: "IBM Plex Mono", monospace;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+}
+li {
+  font-family: "IBM Plex Mono", monospace;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+}
