@@ -1,12 +1,28 @@
 body {
   background: #f5eee6;
 }
+.new-nav {
+  margin: 0 50px;
+}
+a:hover {
+  cursor: pointer;
+}
+.new-content {
+  position: relative;
+  left: 80px;
+  bottom: 10px;
+}
+.content {
+  position: relative;
+  left: 450px;
+  top: 190px;
+}
 h1 {
   color: black;
   font-family: "Cormorant Upright", serif;
   font-weight: 700;
   font-style: normal;
-  font-size: 55px;
+  font-size: 62px;
   line-height: 1;
   opacity: 0.85;
 }
@@ -14,7 +30,7 @@ h3 {
   font-family: "IBM Plex Mono", monospace;
   font-weight: 400;
   font-style: normal;
-  font-size: 18px;
+  font-size: 19px;
   line-height: 50px;
 }
 .navbar-brand {
@@ -28,4 +44,23 @@ li {
   font-weight: 400;
   font-style: normal;
   font-size: 20px;
+}
+.pic-links {
+  position: relative;
+  bottom: 15px;
+}
+i:hover {
+  cursor: pointer;
+}
+img {
+  position: relative;
+  left: 900px;
+  bottom: 300px;
+  width: 445px;
+}
+.social {
+  position: relative;
+  left: 1065px;
+  top: 140px;
+  font-size: 28px;
 }
