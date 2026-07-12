@@ -12,6 +12,22 @@ nav {
   font-size: 19px;
   line-height: 2;
 }
+h1 {
+  text-align: left;
+  font-family: "Cormorant Upright", serif;
+  font-style: normal;
+  font-size: 60px;
+  font-weight: 600;
+}
+h3 {
+  font-family: "IBM Plex Mono", monospace;
+  font-style: normal;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 2;
+  text-align: left;
+}
 .connect {
   text-align: center;
   font-family: "Cormorant Upright", serif;
@@ -19,13 +35,19 @@ nav {
   font-size: 20px;
   font-weight: 600;
   position: relative;
-  top: 700px;
+  bottom: 8px;
   letter-spacing: 2px;
 }
 @media (max-width: 576px) {
+  h1 {
+    text-align: center;
+  }
+  h3 {
+    text-align: center;
+  }
   div .row {
     position: relative;
-    top: 665px;
+    bottom: 40px;
     opacity: 0.85;
     font-size: 20px;
     position: relative;
