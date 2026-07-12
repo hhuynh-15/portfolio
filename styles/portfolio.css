@@ -12,6 +12,16 @@ nav {
   font-size: 19px;
   line-height: 2;
 }
+.box-container {
+  position: relative;
+  top: 72px;
+  text-align: center;
+}
+.headings {
+  position: relative;
+  top: 95px;
+  left: 115px;
+}
 h1 {
   text-align: left;
   font-family: "Cormorant Upright", serif;
@@ -27,6 +37,11 @@ h3 {
   font-weight: 400;
   line-height: 2;
   text-align: left;
+  text-wrap: balance;
+}
+.coder {
+  position: relative;
+  right: 115px;
 }
 .connect {
   text-align: center;
@@ -38,19 +53,12 @@ h3 {
   bottom: 8px;
   letter-spacing: 2px;
 }
-@media (max-width: 576px) {
+@media (maz-width: 576px) {
   h1 {
     text-align: center;
   }
   h3 {
     text-align: center;
-  }
-  div .row {
-    position: relative;
-    bottom: 40px;
-    opacity: 0.85;
-    font-size: 20px;
-    position: relative;
-    text-align: center;
+    word-wrap: break-word;
   }
 }
