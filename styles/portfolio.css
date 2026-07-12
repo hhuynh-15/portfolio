@@ -53,7 +53,7 @@ h3 {
   bottom: 8px;
   letter-spacing: 2px;
 }
-@media (maz-width: 576px) {
+@media (max-width: 576px) {
   h1 {
     text-align: center;
   }
