@@ -19,7 +19,7 @@ h1 {
   font-size: 60px;
   font-weight: 600;
   position: relative;
-  top: 110px;
+  top: 150px;
 }
 h3 {
   font-family: "IBM Plex Mono", monospace;
@@ -31,11 +31,11 @@ h3 {
   text-align: left;
   text-wrap: balance;
   position: relative;
-  top: 110px;
+  top: 150px;
 }
 img {
   position: relative;
-  top: 30px;
+  top: 70px;
 }
 .coder {
   position: relative;
