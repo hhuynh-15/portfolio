@@ -76,8 +76,8 @@ img {
     position: relative;
     bottom: 10px;
   }
-  div .col-4 {
+  div .col-12 {
     font-size: 22px;
-    opacity: 0.85;
+    opacity: 0.8;
   }
 }
