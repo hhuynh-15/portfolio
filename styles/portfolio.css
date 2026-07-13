@@ -12,6 +12,10 @@ nav {
   font-size: 19px;
   line-height: 2;
 }
+div .col-sm-6 {
+  position: relative;
+  top: 30px;
+}
 h1 {
   text-align: left;
   font-family: "Cormorant Upright", serif;
@@ -48,18 +52,32 @@ img {
   font-size: 20px;
   font-weight: 600;
   position: relative;
-  bottom: 8px;
+  bottom: 20px;
   letter-spacing: 2px;
 }
 @media (max-width: 576px) {
   h1 {
     text-align: center;
+    position: relative;
+    top: -1px;
   }
   h3 {
     text-align: center;
     word-wrap: break-word;
+    position: relative;
+    top: -1px;
   }
   img {
     width: 100%;
+    position: relative;
+    top: -35px;
+  }
+  div .row {
+    position: relative;
+    bottom: 10px;
+  }
+  div .col-4 {
+    font-size: 22px;
+    opacity: 0.85;
   }
 }
