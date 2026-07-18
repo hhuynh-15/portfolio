@@ -51,7 +51,6 @@ h2 {
   color: var(--title-color);
   font-size: 21.5px;
   font-weight: 700;
-  margin: 5px;
 }
 .toolbox-1 {
   font-family: var(--title-font);
@@ -69,10 +68,16 @@ h2 {
 }
 .project-title {
   font-family: var(--title-font);
-  font-size: 28px;
+  font-size: 32px;
   font-weight: 700;
+  margin-top: 40px;
+  margin-bottom: 5px;
+  color: var(--teal-color);
 }
 .notes {
+  font-size: 20.5px;
+}
+.notes-plus {
   font-size: 20.5px;
 }
 .quests {
@@ -80,8 +85,6 @@ h2 {
   font-size: 21.5px;
   font-weight: 700;
   color: var(--teal-color);
-  margin-top: 50px;
-  margin-bottom: 5px;
 }
 .journey {
   text-decoration: none;
@@ -105,13 +108,56 @@ h2 {
 .about-icons {
   color: var(--title-color);
   font-size: 70px;
+  opacity: 0.9;
+}
+.work-stack {
+  font-family: var(--body-font);
+  font-size: 30px;
+  font-weight: 500;
+  margin-bottom: 35px;
+}
+.work-buttons {
+  margin-top: 18px;
+}
+.work-icons {
+  color: var(--title-color);
+  font-size: 22px;
+  opacity: 0.9;
 }
 .contact-icons {
-  color: var(--teal-color);
+  color: var(--title-color);
   font-size: 22px;
+  opacity: 0.9;
 }
 .btn-primary {
   background: var(--title-color);
+}
+.btn-success {
+  background: var(--teal-color);
+  color: var(--body-color);
+  border: none;
+  font-family: var(--body-font);
+  font-size: 18px;
+  font-style: italic;
+  padding: 10px 15px;
+  margin-right: 5px;
+  line-height: 2;
+}
+.btn-success:hover {
+  background: var(--violet-color);
+}
+.btn-danger {
+  background: var(--teal-color);
+  color: var(--body-color);
+  border: none;
+  font-size: 18px;
+  font-style: italic;
+  padding: 10px 15px;
+  width: 10%;
+  line-height: 2;
+}
+.btn-danger:hover {
+  background: var(--violet-color);
 }
 h3 {
   font-family: "IBM Plex Mono", monospace;
@@ -159,6 +205,9 @@ img {
     position: relative;
     top: -1px;
   }
+  h2 {
+    margin-top: 30px;
+  }
   h3 {
     text-align: center;
     word-wrap: break-word;
@@ -180,5 +229,16 @@ img {
   }
   div .col-12:hover {
     cursor: pointer;
+  }
+  div .stack {
+    text-align: center;
+    margin-top: 50px;
+  }
+  div .notes-plus {
+    margin-bottom: 20px;
+  }
+  div .about-icons {
+    font-size: 45px;
+    text-align: center;
   }
 }
