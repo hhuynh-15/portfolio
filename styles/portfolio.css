@@ -39,6 +39,7 @@ h2 {
 }
 .about-me {
   font-size: 19.5px;
+  line-height: 2;
 }
 .inquiry {
   color: var(--violet-color);
@@ -51,6 +52,7 @@ h2 {
   color: var(--title-color);
   font-size: 21.5px;
   font-weight: 700;
+  margin-left: 162px;
 }
 .toolbox-1 {
   font-family: var(--title-font);
@@ -64,7 +66,14 @@ h2 {
   font-size: 30px;
   font-weight: 500;
   color: var(--violet-color);
-  margin: 5px;
+  margin-left: 162px;
+}
+.about-stack {
+  font-size: var(--body-font);
+  font-size: 30px;
+  font-weight: 500;
+  color: var(--violet-color);
+  margin: 0;
 }
 .project-title {
   font-family: var(--title-font);
@@ -76,6 +85,7 @@ h2 {
 }
 .notes {
   font-size: 20.5px;
+  line-height: 2;
 }
 .notes-plus {
   font-size: 20.5px;
@@ -109,6 +119,9 @@ h2 {
   color: var(--title-color);
   font-size: 70px;
   opacity: 0.9;
+}
+.work-box-2 {
+  margin-bottom: 50px;
 }
 .work-stack {
   font-family: var(--body-font);
@@ -153,7 +166,6 @@ h2 {
   font-size: 18px;
   font-style: italic;
   padding: 10px 15px;
-  width: 10%;
   line-height: 2;
 }
 .btn-danger:hover {
@@ -231,7 +243,6 @@ img {
     cursor: pointer;
   }
   div .stack {
-    text-align: center;
     margin-top: 50px;
   }
   div .notes-plus {
