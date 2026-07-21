@@ -17,18 +17,12 @@ nav {
   font-size: 19px;
   line-height: 2;
 }
-div .col-sm-6 {
-  position: relative;
-  top: 30px;
-}
 h1 {
   text-align: left;
   font-family: "Cormorant Upright", serif;
   font-style: normal;
   font-size: 60px;
   font-weight: 600;
-  position: relative;
-  top: 150px;
   color: var(--violet-color);
 }
 h2 {
@@ -58,7 +52,6 @@ h2 {
   color: var(--title-color);
   font-size: 21.5px;
   font-weight: 700;
-  margin-left: 162px;
 }
 .toolbox-1 {
   font-family: var(--title-font);
@@ -186,8 +179,6 @@ h3 {
   line-height: 2;
   text-align: left;
   text-wrap: balance;
-  position: relative;
-  top: 150px;
   color: var(--violet-color);
 }
 h4 {
@@ -197,16 +188,14 @@ h4 {
   font-weight: 700;
 }
 img {
-  position: relative;
-  top: 70px;
 }
+
 .work-photo {
   width: 520px;
 }
 .coder {
-  position: relative;
-  right: 115px;
 }
+
 .connect {
   text-align: center;
   font-family: "Cormorant Upright", serif;
@@ -234,13 +223,10 @@ img {
   }
   img {
     width: 100%;
-    position: relative;
-    top: -35px;
   }
   div .row {
-    position: relative;
-    bottom: 10px;
   }
+
   div .col-12 {
     font-size: 22px;
     opacity: 0.8;
