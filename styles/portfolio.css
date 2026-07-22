@@ -211,6 +211,9 @@ h4 {
   img {
     width: 100%;
   }
+  div .work-page-title {
+    margin-left: 0;
+  }
   div .work-stack {
     margin-top: 30px;
   }
