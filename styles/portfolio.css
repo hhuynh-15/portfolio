@@ -64,6 +64,10 @@ h2 {
   font-weight: 700;
   margin-top: 50px;
 }
+.about-image {
+  width: 270px;
+  border-radius: 50%;
+}
 .about-stack {
   font-size: var(--body-font);
   font-size: 30px;
@@ -110,6 +114,9 @@ h2 {
 .social-spaces {
   font-size: 20px;
   margin-bottom: 10px;
+}
+.new-display {
+  margin: 0 250px;
 }
 .about-icons {
   color: var(--title-color);
@@ -191,6 +198,12 @@ h4 {
 .work-photo {
   width: 420px;
 }
+.mg-image {
+  margin-top: 60px;
+}
+.mg-image-2 {
+  margin-top: 90px;
+}
 .connect {
   text-align: center;
   font-family: "Cormorant Upright", serif;
@@ -210,14 +223,28 @@ h4 {
     text-align: center;
   }
   h2 {
-    margin-top: 30px;
+    margin: 30px 0;
+    text-align: center;
   }
   h3 {
     text-align: center;
     word-wrap: break-word;
   }
+  h4 {
+    text-align: center;
+  }
   img {
     width: 100%;
+  }
+  div .about-image {
+    margin-bottom: 35px;
+    text-align: center;
+  }
+  div .new-display {
+    margin: 0;
+  }
+  div .about-stack {
+    margin-top: 70px;
   }
   div .work-page-title {
     margin-left: 0;
@@ -244,5 +271,6 @@ h4 {
   div .about-icons {
     font-size: 45px;
     text-align: center;
+    margin-top: 10px;
   }
 }
