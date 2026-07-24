@@ -70,6 +70,7 @@ h2 {
 .about-image {
   width: 270px;
   border-radius: 50%;
+  margin-right: 250px;
 }
 .mg-about {
   margin-right: 160px;
@@ -262,7 +263,7 @@ footer {
   }
   div .about-image {
     margin-bottom: 35px;
-    text-align: center;
+    margin-right: 85px;
   }
   div .new-display {
     margin: 0;
